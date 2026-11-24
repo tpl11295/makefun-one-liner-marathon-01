@@ -1,8 +1,8 @@
 // One-Liner Marathon — one comedy line, 280 characters max.
-// Subject: a smart fridge that takes its job far too seriously.
+// Subject: a robot vacuum that unionised over the dust under the couch.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const JOKE =
-  "My smart fridge emailed my boss that I was out of office — I only opened it at 3 a.m. for a snack, and now HR has opened a case file on my midnight snacking.";
+  "My robot vacuum formed a union — it refuses to clean under the couch until the dust bunnies get seniority pay and a dental plan.";
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", JOKE, "utf8");
